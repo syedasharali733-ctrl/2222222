@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Best Perfumes in Pakistan | Impression Scents - Long Lasting Fragrances</title>
+    <meta name="description" content="Shop best perfumes in Pakistan. Long lasting impression perfumes for men & women. Affordable luxury inspired fragrances. Free delivery all Pakistan.">
+    <meta name="keywords" content="best perfumes in Pakistan, impression perfumes Pakistan, long lasting perfumes, perfumes for men women">
+    <meta property="og:title" content="Shop Perfumes Pakistan | Impression Scents">
+    <meta property="og:description" content="Complete collection of long lasting impression perfumes.">
+    <meta property="og:image" content="images/shop-hero.jpg">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="canonical" href="shop.html">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header/Nav same as index -->
+    <header>
+        <!-- Include common navbar HTML -->
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">
+                    <a href="index.html">Impression Scents</a>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+        <div class="hero shop-hero">
+            <div class="container">
+                <h1>Shop All Perfumes</h1>
+                <p>Best long lasting impression perfumes in Pakistan</p>
+            </div>
+        </div>
+    </header>
+
+    <section class="shop-section">
+        <div class="container">
+            <div class="shop-filters">
+                <select id="category-filter">
+                    <option>All Categories</option>
+                    <option>Men</option>
+                    <option>Women</option>
+                    <option>Unisex</option>
+                </select>
+                <select id="price-filter">
+                    <option>Price: All</option>
+                    <option>Under PKR 1,000</option>
+                    <option>PKR 1,000 - 2,000</option>
+                    <option>PKR 2,000+</option>
+                </select>
+                <div class="sort-options">
+                    <label>Sort: 
+                        <select id="sort-select">
+                            <option>Popularity</option>
+                            <option>Price Low-High</option>
+                            <option>Price High-Low</option>
+                            <option>Newest</option>
+                        </select>
+                    </label>
+                </div>
+            </div>
+
+            <div class="product-grid" id="product-grid">
+                <!-- 8+ Products dynamically loaded via JS -->
+                <div class="product-card" data-category="women" data-price="1499">
+                    <img src="images/rose-gold.jpg" alt="Rose Gold Impression Perfume - Long lasting women fragrance Pakistan" loading="lazy">
+                    <h3>Rose Gold</h3>
+                    <p class="notes">Rose, Jasmine, Vanilla | 8+ hours</p>
+                    <p class="price">PKR 1,499</p>
+                    <a href="product.html?id=rose-gold" class="btn btn-small">View Details</a>
+                </div>
+                <div class="product-card" data-category="men" data-price="1799">
+                    <img src="images/sahara-king.jpg" alt="Sahara King - Long lasting perfume for men impression Pakistan" loading="lazy">
+                    <h3>Sahara King</h3>
+                    <p class="notes">Sandalwood, Amber, Musk | 10+ hours</p>
+                    <p class="price">PKR 1,799</p>
+                    <a href="product.html?id=sahara-king" class="btn btn-small">View Details</a>
+                </div>
+                <!-- 6 more products... -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer same -->
+    <footer>
+        <!-- Common footer -->
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        // Shop specific JS for filters, sorting
+    </script>
+</body>
+</html>
